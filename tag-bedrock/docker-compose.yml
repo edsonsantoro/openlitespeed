@@ -157,7 +157,7 @@ services:
       - DEMYX_TUNING_SMART_KEEP_ALIVE=1000
       - DEMYX_WP_CONFIG=/demyx/wp-config.php
       - DEMYX_XMLRPC=false
-    image: demyx/openlitespeed:bedrock
+    image: santorodevstudio/openlitespeed:bedrock
     labels:
       - "traefik.enable=true"
       - "traefik.http.middlewares.demyx-wp-ols-assets-prefix.stripprefix.prefixes=/demyx/ols/"

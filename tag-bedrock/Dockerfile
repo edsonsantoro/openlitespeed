@@ -1,6 +1,6 @@
 FROM demyx/openlitespeed
 
-LABEL sh.demyx.image            demyx/openlitespeed:bedrock
+LABEL sh.demyx.image            santorodevstudio/openlitespeed:bedrock
 LABEL sh.demyx.maintainer       Demyx <info@demyx.sh>
 LABEL sh.demyx.url              https://demyx.sh
 LABEL sh.demyx.github           https://github.com/demyxco
