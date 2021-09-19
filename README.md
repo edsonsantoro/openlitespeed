@@ -1,10 +1,10 @@
 # openlitespeed
 [![Build Status](https://img.shields.io/travis/demyxco/openlitespeed?style=flat)](https://travis-ci.org/demyxco/openlitespeed)
-[![Docker Pulls](https://img.shields.io/docker/pulls/demyx/openlitespeed?style=flat&color=blue)](https://hub.docker.com/r/demyx/openlitespeed)
-[![Architecture](https://img.shields.io/badge/linux-amd64-important?style=flat&color=blue)](https://hub.docker.com/r/demyx/openlitespeed)
-[![Debian](https://img.shields.io/badge/debian-10.10-informational?style=flat&color=blue)](https://hub.docker.com/r/demyx/openlitespeed)
-[![OpenLiteSpeed](https://img.shields.io/badge/openlitespeed-1.6.21-informational?style=flat&color=blue)](https://hub.docker.com/r/demyx/openlitespeed)
-[![lsphp](https://img.shields.io/badge/lsphp-7.4.23-informational?style=flat&color=blue)](https://hub.docker.com/r/demyx/openlitespeed)
+[![Docker Pulls](https://img.shields.io/docker/pulls/santorodevstudio/openlitespeed?style=flat&color=blue)](https://hub.docker.com/r/santorodevstudio/openlitespeed)
+[![Architecture](https://img.shields.io/badge/linux-amd64-important?style=flat&color=blue)](https://hub.docker.com/r/santorodevstudio/openlitespeed)
+[![Debian](https://img.shields.io/badge/debian-10.10-informational?style=flat&color=blue)](https://hub.docker.com/r/santorodevstudio/openlitespeed)
+[![OpenLiteSpeed](https://img.shields.io/badge/openlitespeed-1.6.21-informational?style=flat&color=blue)](https://hub.docker.com/r/santorodevstudio/openlitespeed)
+[![lsphp](https://img.shields.io/badge/lsphp-7.4.23-informational?style=flat&color=blue)](https://hub.docker.com/r/santorodevstudio/openlitespeed)
 [![Buy Me A Coffee](https://img.shields.io/badge/buy_me_coffee-$5-informational?style=flat&color=blue)](https://www.buymeacoffee.com/VXqkQK5tb)
 [![Become a Patron!](https://img.shields.io/badge/become%20a%20patron-$5-informational?style=flat&color=blue)](https://www.patreon.com/bePatron?u=23406156)
 
@@ -185,7 +185,7 @@ services:
       - DEMYX_TUNING_SMART_KEEP_ALIVE=1000
       - DEMYX_WP_CONFIG=/demyx/wp-config.php
       - DEMYX_XMLRPC=false
-    image: demyx/openlitespeed
+    image: santorodevstudio/openlitespeed
     labels:
       - "traefik.enable=true"
       - "traefik.http.middlewares.demyx-wp-ols-assets-prefix.stripprefix.prefixes=/demyx/ols/"

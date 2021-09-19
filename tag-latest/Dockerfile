@@ -1,6 +1,6 @@
 FROM debian:buster-slim
 
-LABEL sh.demyx.image                            demyx/openlitespeed
+LABEL sh.demyx.image                            santorodevstudio/openlitespeed
 LABEL sh.demyx.maintainer                       Demyx <info@demyx.sh>
 LABEL sh.demyx.url                              https://demyx.sh
 LABEL sh.demyx.github                           https://github.com/demyxco

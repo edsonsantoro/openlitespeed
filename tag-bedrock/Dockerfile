@@ -1,4 +1,4 @@
-FROM demyx/openlitespeed
+FROM santorodevstudio/openlitespeed
 
 LABEL sh.demyx.image            santorodevstudio/openlitespeed:bedrock
 LABEL sh.demyx.maintainer       Demyx <info@demyx.sh>
